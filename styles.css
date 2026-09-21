@@ -24,6 +24,12 @@
   width: 250px;
 }
 
+.topnav i img {
+  display: block;
+  max-height: 100%;
+  width: auto;
+}
+
 /* Change color on hover */
 .topnav a:hover {
   background-color: #67baff;
