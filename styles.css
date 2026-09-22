@@ -1,20 +1,29 @@
 .topnav {
   overflow: hidden;
+  font-family: verdana, sans-serif;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* Style the topnav links */
 .topnav a {
   float: left;
   display: block;
+  font-weight: bold;
   color: #e4e4e4;
   background-color: #3d3dFF;
-  border: 2px solid #ffffff;
+  border: 2px solid #67baff;
   border-radius: 10px;
   text-align: center;
   text-decoration: none;
   width: 25%;
   max-width: 200px;
   padding: 13px 0px;
+}
+
+.dark-mode .topnav a {
+  border-color: #e4e4e4;
+  background-color: #3d3db0;
 }
 
 .topnav i {
@@ -33,10 +42,17 @@
 /* Change color on hover */
 .topnav a:hover {
   background-color: #67baff;
-  color: black;
+  border-color: #e4e4e4;
+  color: #000000;
+}
+
+.dark-mode .topnav a:hover {
+  background-color: #3d3dff;
+  color: #FFFFFF
 }
 
 body {
+  font-family: verdana, sans-serif;
   background-color: #FFFFFF;
   color: #000000;
 }
@@ -45,6 +61,23 @@ body {
   background-color: #000000;
   color: #FFFFFF;
 }
+
+.box {
+  border: 2px solid #3d3dFF;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 150%;
+  border-radius: 10px;
+  padding: 10px 10px;
+  width: 60%;
+  max-width: 600px;
+}
+
+.dark-mode .box {
+  background-color: #3d3d3d;
+  color: #FFFFFF;
+}
+
 footer {
   background-color: #3d3d3d;
   color: #e4e4e4;
