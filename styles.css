@@ -149,8 +149,10 @@ footer {
 }
 
 .projectBox img {
-  height: 85%;
-  width: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
   border: 2px solid #3d3d3d;
   border-radius: 7px;
 }
