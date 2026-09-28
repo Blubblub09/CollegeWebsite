@@ -157,6 +157,14 @@ footer {
   border-radius: 7px;
 }
 
+.image-card {
+  text-align: center;
+}
+
+.image-caption {
+  padding-top: 8px;
+}
+
 .dark-mode .projectBox {
   background-color: #3d3d3d;
   color: #FFFFFF;
