@@ -145,6 +145,7 @@ footer {
   border-radius: 10px;
   padding: 10px 10px;
   max-width: 400px;
+  height: 300px;
   flex: 1 1 400px;
 }
 
@@ -162,10 +163,19 @@ footer {
 }
 
 .image-caption {
+  display: none;
   padding-top: 8px;
 }
 
 .dark-mode .projectBox {
   background-color: #3d3d3d;
   color: #FFFFFF;
+}
+
+.projectBox:hover img{
+  display: none;
+}
+
+.projectBox:hover .image-caption {
+  display: block;
 }
