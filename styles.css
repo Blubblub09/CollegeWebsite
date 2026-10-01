@@ -194,3 +194,8 @@ footer {
   width:fit-content;
   height: fit-content;
 }
+
+.dark-mode .mapBox {
+  background-color: #3d3d3d;
+  color: #FFFFFF;
+}
